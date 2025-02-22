@@ -1,0 +1,77 @@
+.appointment{
+    width: 100%;
+    height: 200vh;
+    background-color: whitesmoke;
+    display: grid;
+    place-content: center;
+    
+}
+.appointment form{
+    width: 500px;
+    max-height: 100%;
+    background:linear-gradient(180deg,rgb(31, 231, 31),rgb(3, 132, 3),rgb(10, 62, 10));
+    box-shadow: inset 0px 0px 10px rgb(20, 13, 26);
+    border-radius: 8px;
+    gap:80px;
+    
+}
+.appointment form h2{
+    width: 100%;
+    padding: 10px;
+    display: grid;
+    place-content: center;
+    color:white;
+    font-size: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.appointment form .input-field{
+    width: 100%;
+    padding: 10px 20px;
+}
+.appointment form .button-fd{
+    width: 90%;
+    padding: 10px 20px;
+}
+.appointment form .input-field label{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+.appointment form .input-field input,
+.appointment form .input-field select{
+    width: 90%;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+.appointment form .input-field p{
+    font-size: 14px;
+    color:red;
+    font-weight: bold;
+    padding: 5px;
+    font-family:Georgia, 'Times New Roman', Times, serif !important;
+
+}
+.appointment form .button-fd{
+    margin-top: 20px;
+    
+}
+.appointment form .button-fd button{
+    width: 35%;
+    padding: 10px 10px;
+    background:green;
+    border: 1px solid green;
+    color: white;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.appointment form .button-fd button:hover{
+    background:linear-gradient(180deg,rgb(31, 231, 31),rgb(3, 132, 3),rgb(10, 62, 10));
+}
+
+
+

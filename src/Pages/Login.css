@@ -1,0 +1,66 @@
+.login-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:url(https://images.pexels.com/photos/668298/pexels-photo-668298.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.login-container form{
+    width: 450px;
+    max-height: 500px;
+    padding: 10px 0px;
+    background:linear-gradient(180deg,rgb(31, 231, 31),rgb(3, 132, 3),rgb(10, 62, 10));
+    border-radius: 30% 30% / 80% 80%;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.10);
+    opacity: 0.8;
+}
+.login-container form h2{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+    padding: 15px;
+}
+form .input-field,
+form .button-field{
+    width: 100%;
+    padding: 5px 70px;
+}
+form .input-field input,
+form .input-field select{
+    width: 100%;
+    padding: 6px;
+    outline: none;
+    border: 2px solid #007C9D;
+    border-radius: 3px;
+    margin-top: 5px;
+}
+form .input-field p{
+    font-size: 15px;
+    color: red;
+    font-weight: bold;
+    padding: 5px 0px;
+}
+form .button-field{
+    margin-top: 20px;
+}
+form .button-field button{
+    width: 100%;
+    padding: 10px;
+    background: #020709;
+    border: 2px solid #142b31;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+form .button-field button:hover{
+    background: rgb(19, 214, 214);
+    color: black;
+    font-weight: bold;
+
+}
